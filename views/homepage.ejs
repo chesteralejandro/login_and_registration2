@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <div class="container">
+        <a href="./logout">Logout</a>
+        <h1>Welcome <%=user.first_name%></h1>
+        <div class="result">
+            <p><span>First Name: </span><%=user.first_name%></p>
+            <p><span>Last Name: </span><%=user.last_name%></p>
+            <p><span>Email Address: </span><%=user.email%></p>
+        </div>
+    </div>
+</body>
+</html>
